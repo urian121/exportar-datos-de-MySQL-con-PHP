@@ -11,3 +11,12 @@
         }
         return $resultado;
     }
+
+function getTabla($conexion, $tabla){
+    $sql = "SELECT * FROM $tabla";
+    $resultado = $conexion->query($sql);
+    if (!$resultado) {
+        return false;
+    }
+    return $resultado;
+}
