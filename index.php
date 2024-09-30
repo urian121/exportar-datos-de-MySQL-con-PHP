@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -11,22 +11,9 @@
 <body>
     <?php
     include('config.php');
-    function getEmpleados($conexion)
-    {
-        $sql = "SELECT 
-        nombre, edad, cedula,
-        sexo, telefono, cargo, created_at
-    FROM tbl_empleados  ORDER BY id ASC";
-        $resultado = $conexion->query($sql);
-        if (!$resultado) {
-            return false;
-        }
-        return $resultado;
-    }
+    include('funciones.php');
+
     $empleados = getEmpleados($conexion);
-    echo "<pre>";
-    print_r($empleados);
-    echo "</pre>";
     ?>
     <div class="container border">
         <div class="row justify-content-center">
@@ -37,7 +24,7 @@
 
         <div class="row justify-content-center mt-5">
             <div class="col-md-12">
-                <a href="export.php" class="btn btn-primary">Exportar</a>
+                <a download="empleados.csv" href="export.php" class="btn btn-primary">Exportar</a>
                 <a href="import.php" class="btn btn-primary">Importar</a>
                 <div class="table-responsive">
                     <table class="table">
