@@ -1,10 +1,10 @@
-# Guía para Exportar Datos en PHP Fácil
+# Guía para Exportar Datos de MySQL con PHP Fácil
 
 ## Descripción
 
 Este proyecto proporciona una forma sencilla de exportar datos desde una base de datos MySQL a archivos Excel (`.Xls`) utilizando PHP. Con esta guía, podrás implementar la funcionalidad de exportación en tus aplicaciones web de manera rápida y eficiente.
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/exportar_data_de_mysql_con_php.png)
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/exportar-data-desde-mysql-con-php.png)
 
 
 ## Requisitos
