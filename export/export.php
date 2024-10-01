@@ -1,7 +1,7 @@
 <?php
 // Incluir el archivo de configuración para la conexión a la base de datos
-include('config.php');
-include('funciones.php');
+include('../config/configBD.php');
+include('../funciones.php');
 
 // Configuración en la cabecera para forzar la descarga
 header("Expires: Mon, 26 Jul 2227 05:00:00 GMT"); 
