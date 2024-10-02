@@ -32,7 +32,7 @@ CREATE TABLE `paises` (
   `nombre_pais` varchar(50) DEFAULT NULL,
   `nombre_capital` varchar(50) DEFAULT NULL,
   `habitantes` int DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+);
 
 --
 -- Volcado de datos para la tabla `paises`
@@ -67,7 +67,7 @@ CREATE TABLE `tbl_empleados` (
   `telefono` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `cargo` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+);
 
 --
 -- Volcado de datos para la tabla `tbl_empleados`
