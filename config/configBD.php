@@ -1,6 +1,6 @@
 <?php
-$ModoProduccion = true;
-if ($ModoProduccion) {
+$ModoDesarrollo = true;
+if ($ModoDesarrollo) {
     $host = "localhost";
     $usuario = "root";
     $contrasena = "";
