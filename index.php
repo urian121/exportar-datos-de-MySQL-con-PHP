@@ -24,6 +24,10 @@
 
 <body>
     <?php
+    // Activar errores de PHP
+    ini_set('display_errors', 1);
+    error_reporting(E_ALL);
+
     include('config/configBD.php');
     include('funciones.php');
 
