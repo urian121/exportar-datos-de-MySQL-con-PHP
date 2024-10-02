@@ -1,4 +1,7 @@
 <?php
+// Activar errores de PHP
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
 /** FUNCION PARA OBTENER TODOS LOS EMPLEADOS */
 function getEmpleados($conexion)
