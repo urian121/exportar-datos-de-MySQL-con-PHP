@@ -60,7 +60,7 @@
                 </div>
                 <div class="mb-3 mt-5">
                     <a download="empleados.csv" href="export/export.php" class="btn btn-primary me-2">Exportar Opción 1 <i class="bi bi-file-earmark-spreadsheet"></i></a>
-                    <a download="listaEmpleados.csv" href="export/export1.php" class="btn btn-primary">Exportar Opción 2 <i class="bi bi-file-earmark-spreadsheet"></i></a>
+                    <a download="listaEmpleados.csv" href="export/export2.php" class="btn btn-primary">Exportar Opción 2 <i class="bi bi-file-earmark-spreadsheet"></i></a>
                 </div>
             </div>
         </div>
