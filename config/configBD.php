@@ -4,7 +4,7 @@ if ($ModoProduccion) {
     $host = "localhost";
     $usuario = "root";
     $contrasena = "";
-    $base_de_datos = "bd_nextjs_mysql";
+    $base_de_datos = "bd_data";
 } else {
     $host = "xx.xx.xx.xx";
     $usuario = "xx";
